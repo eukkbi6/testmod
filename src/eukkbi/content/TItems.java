@@ -15,5 +15,5 @@ public class TItems implements ContentList {
            cost = 1;
 
         }};
-    };
+    }
 }
