@@ -5,7 +5,7 @@
   "description": "This is just simple test mod",
   "version": "0.1",
   "main": "eukkbi.ModTemplate",
-  "minGameVersion": "126",
+  "minGameVersion": "130",
   "dependencies": [],
   "hidden": false,
   "java": true
