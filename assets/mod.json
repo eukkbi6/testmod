@@ -1,0 +1,12 @@
+{
+  "name": "tm",
+  "displayName": "Test-Mod",
+  "author": "[#8738ff[]]eukkbi6[[]]",
+  "description": "This is just simple test mod",
+  "version": "0.1",
+  "main": "eukkbi.ModTemplate",
+  "minGameVersion": "126",
+  "dependencies": [],
+  "hidden": false,
+  "java": true
+}
