@@ -1,4 +1,4 @@
-package sonnicon.modtemplate;
+package eukkbi;
 
 import mindustry.mod.Mod;
 
