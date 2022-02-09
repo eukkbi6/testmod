@@ -8,11 +8,9 @@ import mindustry.mod.Mod;
 public class Main extends Mod {
     public Main() {
         Events.on(EventType.ClientLoadEvent.class, e -> {
-
         });
 
         Events.on(EventType.WorldLoadEvent.class, e -> {
-
         });
     }
     @Override
