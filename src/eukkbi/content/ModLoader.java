@@ -6,6 +6,7 @@ public class ModLoader implements ContentList{
     private final ContentList[] contents = {
             new TItems(),
             new TBlocks(),
+            new TLiquids(),
     };
 
     public void load(){

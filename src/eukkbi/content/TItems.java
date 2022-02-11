@@ -1,10 +1,12 @@
 package eukkbi.content;
 
+import arc.graphics.Color;
 import mindustry.ctype.ContentList;
 import mindustry.type.Item;
 
 public class TItems implements ContentList {
-    public static Item Wood,HematiteOrg,TungstenOrg,IronSulFideOrg,AluminumOrg;
+    public static Item Wood,Hematite,Tungsten,IronSulFide,Aluminum;
+
 
     @Override
     public void load() {
@@ -14,19 +16,20 @@ public class TItems implements ContentList {
            hardness = 1;
         }};
 
-        HematiteOrg = new Item("Hematite"){{
+        Hematite = new Item("Hematite", Color.valueOf("a48a8b")){{
            hardness = 1;
         }};
 
-        TungstenOrg = new Item("Tungsten"){{
+        Tungsten = new Item("Tungsten", Color.valueOf("7a7a87")){{
+            hardness = 1;
+
+        }};
+
+        IronSulFide = new Item("IronSulFide", Color.valueOf("b7bc8d")){{
             hardness = 1;
         }};
 
-        IronSulFideOrg = new Item("IronSulFide"){{
-            hardness = 1;
-        }};
-
-        AluminumOrg = new Item("Aluminum"){{
+        Aluminum = new Item("Aluminum", Color.valueOf("969696")){{
            hardness = 1;
         }};
     }
