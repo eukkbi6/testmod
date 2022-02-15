@@ -7,7 +7,7 @@ import mindustry.type.LiquidStack;
 import mindustry.world.Block;
 import mindustry.world.blocks.environment.OreBlock;
 import mindustry.world.blocks.production.GenericCrafter;
-import mindustry.world.blocks.production.Separator;
+import mindustry.world.blocks.production.LiquidConverter;
 
 import static mindustry.type.ItemStack.*;
 
@@ -45,6 +45,10 @@ public class TBlocks implements ContentList {
             oreDefault = true;
             oreThreshold = 0.91f;
             oreScale = 25.2529f;
+        }};
+
+        BTXExtractor = new LiquidConverter("BTX-Extractor"){{
+
         }};
     }
 }

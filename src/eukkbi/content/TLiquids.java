@@ -8,6 +8,16 @@ public class TLiquids implements ContentList {
 
     @Override
     public void load() {
+        Toluene = new Liquid("Toluene"){{
 
+        }};
+
+        Benzene = new Liquid("Benzene"){{
+
+        }};
+
+        Xylene = new Liquid("Xylene"){{
+
+        }};
     }
 }
